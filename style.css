@@ -31,6 +31,10 @@ header {
     width: 100vw;
 }
 
+.belowTop{
+    display: flex;
+}
+
 .sidebar {
     padding: 0;
     margin: 0;
