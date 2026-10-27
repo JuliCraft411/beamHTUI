@@ -1,0 +1,75 @@
+body, html, div, header, p, span, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: rgb(162, 204, 200);
+    height: 100%;
+    width: 100%;
+}
+header {
+    background-color: rgb(120, 150, 148);
+    padding: 1rem;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    white-space: nowrap;
+    width: 100vw;
+}
+
+.topbar {
+    background-color: rgb(99, 138, 134);
+    width: 100vw;
+}
+
+.sidebar {
+    padding: 0;
+    margin: 0;
+    min-width: 200px;
+    width: 15vw;
+    height: calc(100vh);
+    display: flex;
+    min-height: max-content;
+    flex-flow: column;
+    background-color: rgb(137, 160, 158);
+    overflow: hidden;
+}
+
+.newServer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(137, 160, 158);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(175, 175, 175);
+}
+
+.newServerBox {
+    padding: 10px;
+}
+
+.newServer:hover {
+    background-color: rgb(148, 148, 148);
+    cursor: pointer;
+}
+
+.dashboard {
+    padding: 14px;
+}
+
+
+.title {
+    font-size: 16px;
+}
